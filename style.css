@@ -1,0 +1,177 @@
+body{
+    background-color: #FFF0C3;
+    font-family: Akhand;
+}
+/* Header */
+.container{
+    width: 100%;
+    height: auto;
+}
+nav{
+    background-color: #0A4153;
+    border-radius: 48px 48px 48px 48px;
+    width: 1200px;
+    position: absolute;
+    left: 90px;
+    height: 130px;
+    /* position: fixed; */
+    /* z-index: 100; */
+}
+/* Sol Taraf */
+nav .navbar-sol{
+    
+    margin-top: 50px;   
+    margin-left: 30px;
+}
+nav .navbar-sol a{
+    position: relative;
+    left: 0px;
+    
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav .navbar-sol .search{
+    position: relative;
+    
+    left: 30px;
+    
+}
+/* Sağ Taraf*/
+nav .navbar-sag{
+    position: relative;
+    left: 1000px;
+    top: -20px;
+    width: 1170px;
+    height: 60px;
+    margin-top: 1px;
+    margin-right: 20px;
+    
+    
+} 
+nav .navbar-sag .sağ-button{
+    position: relative;
+    right: 50px;
+    display: flex;
+    gap: 30px;
+}
+nav .navbar-sag .sağ-button a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* lOGO */
+nav .logo{
+    font-size: 50px;
+    position: relative;
+    top: -100px;
+    left: 500px;
+}
+nav .logo a{
+    color: white;
+    text-decoration: none;
+}
+ /* section */
+section .red{
+    position: absolute;
+    top: 155px;
+    left: 90px;
+    background-color: #D12A27;
+    width: 1200px;
+    height: 800px;
+    border-radius: 48px 48px 48px 48px;
+}
+section .red p{
+    position: absolute;
+    top: 740px;
+    left: 500px;
+    font-size: 25px;
+    color: white;
+}
+section .red .laci{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background-color:  #0A4153;
+    width: 1200px;
+    height: 750px;
+    border-radius: 48px 48px 48px 48px;
+}
+.laci img{
+    position: relative;
+    top: 10px;
+    left: 15px; 
+    width: 1170px;
+    border-radius: 48px 48px 48px 48px;
+}
+.laci .marka img{
+    position: relative;
+    top: 60px;
+    height: 100px;
+}
+.ürünler .fırsat{
+    position: relative;
+    background-color: #D12A27;
+    top: 950px;
+    left: 90px;
+    width: 100px;
+    height: 130px;
+    border-radius: 12px 12px 12px 12px;
+}
+.ürünler .fırsat p{
+    position: relative;
+    color: white;
+    left: 5px;
+    top: 10px;
+}
+.ürünler .Puki{
+    position: relative;
+    background-color: #D12A27;
+    top: 805px;
+    left: 700px;
+    width: 100px;
+    height: 130px;
+    border-radius: 12px 12px 12px 12px;
+}
+.ürünler .Puki p{
+    position: relative;
+    color: white;
+    left: 5px;
+    top: 10px;
+}
+.lacivert-kutu{
+    position: relative;
+    top: 710px;
+    left: 90px;
+    background-color:  #0A4153;
+    width: 1200px;
+    height: 420px;
+    border-radius: 48px 48px 48px 48px;
+}
+.lacivert-kutu .fırsat-urunler{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    width: 520px;
+    height: 390px;
+    background-color: #D12A27;
+    border-radius: 48px 48px 48px 48px;
+}
+.lacivert-kutu .fırsat-urunler img{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    width: 500px;
+    height: 350px;
+    border-radius: 48px 48px 48px 48px;
+}
+.lacivert-kutu .puki-resim img{
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    border-radius: 48px 48px 48px 48px;
+    width: 550px;
+    height: 380px;
+
+}
+  /* section */
